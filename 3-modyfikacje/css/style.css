@@ -1,0 +1,26 @@
+.color-div {
+    padding: 20px;
+    background-color: darkviolet;
+}
+.img {
+    width: 100px;
+    outline: 1px solid red;
+    outline-offset: 5px;
+}
+
+.img-transform {
+    transform: rotate(30deg);
+}
+
+#second {
+    font-size: 4rem;
+    color: green;
+    text-decoration: underline;
+    transition: all 2s;
+}
+
+#second.ladny-naglowek {
+    font-size: 1.6rem;
+    color: crimson;
+    opacity: 0.4;
+}
